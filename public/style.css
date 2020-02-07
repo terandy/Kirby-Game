@@ -1,0 +1,125 @@
+.player{
+    height:100px;
+    position:absolute;
+    top:76%;
+    transition-timing-function: ease-out;
+    transition: 0.1s;
+}
+.points{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    background-color:rgba(0,0,0,60%);
+    padding:20px;
+    position:absolute;
+    width:100px;
+    height:100px;
+    text-align:center;
+    top: 5%;
+    border-radius:50%;
+}
+
+.points> div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.point{
+    margin-top:10px;
+}
+
+
+.player > img{
+    height:100%
+}
+
+body{
+    background-image: url("/static/forest-background.gif");
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+.player1-position{
+    right:100px;
+
+}
+
+.player2-position{
+    left:100px;
+
+}
+.player1{
+    right:100px;
+
+}
+
+.player2{
+    left:100px;
+
+}
+
+#winner{
+    display:none;
+    width:max-content;
+    color:darkgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:50px;
+    background-color:rgba(300,300,300,80%);
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+#again{
+    display:none;
+    width:max-content;
+    color:darkgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:50px;
+    background-color:rgba(300,300,300,80%);
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+#again:hover{
+    cursor:pointer
+}
+#go{
+    display:none;
+    width:max-content;
+    color:purple;
+    font-family:'Courier New', Courier, monospace;
+    font-size:100px;
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+
+#counter{
+    display:none;
+    width:max-content;
+    color:purple;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:100px;
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
